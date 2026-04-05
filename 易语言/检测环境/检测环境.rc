@@ -1,0 +1,8 @@
+// 黑月资源脚本文件
+
+#define IDI_MAINICON	129
+
+LANGUAGE 4,2
+
+IDI_MAINICON ICON DISCARDABLE "res/icon.ico"
+
