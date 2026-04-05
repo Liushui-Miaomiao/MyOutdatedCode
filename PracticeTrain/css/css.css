@@ -1,0 +1,215 @@
+@charset "utf-8";
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.ad {
+	width: 100%;
+	height: 120px;
+	background: url(../image/top.jpg) center center;
+	background-size: auto 100%;		/* 宽度自适应，高度 100% */
+}
+
+.logo {
+	width: 56px;
+	height: 56px;
+	background: url(../image/logo-mi2.png) no-repeat;
+	background-size: 100% 100%;
+	float: left;
+	margin-top: 22px;
+}
+
+.news {
+	width: 165px;
+	height: 100px;
+	background: url(../image/new.gif) no-repeat center center;
+	float: left;
+	margin: 0px 20px;
+}
+
+.topNav {
+	width: 100%;
+	height: 40px;
+	background: #333333;
+}
+
+.logoNav {
+	width: 1226px;
+	height: 100px;
+	margin: 0px auto;
+}
+
+.logoNav .logoUl {
+	width: 650px;
+	height: 100px;
+	float: left;
+	line-height: 100px;
+	
+}
+
+.logoNav .logoUl li {
+	list-style: none;
+	float: left;
+	padding: 0px 10px;
+	font-size: 16px;
+	
+}
+
+.logoNav .logoUl li a {
+	color: #333;
+	text-decoration: none;
+}
+
+.logoNav .logoUl li a:hover {
+	color: orange;
+}
+
+.carousel {
+	width: 1226px;
+	height: 460px;
+	background: blue;
+	margin: 0px auto;
+}
+
+.recommend {
+	width: 1226px;
+	height: 170px;
+	background: orange;
+	margin: 20px auto;
+}
+
+.secKill {
+	width: 100%;
+	height: 1000px;
+	background: #f5f5f5;
+}
+
+.topCon {
+	width: 1226px;
+	height: 40px;
+	margin: 0 auto;
+}
+
+.topLeft {
+	width: 800px;
+	height: 40px;
+	float: left;
+	line-height: 40px;			/* 文字的垂直居中 */
+	font-size: 12px;
+}
+
+.topLeft a, .topRight a {
+	text-decoration: none;
+	color: #b0b0b0;
+}
+
+/* 鼠标经过文字变成白色 */
+.topLeft a:hover, .topRight a:hover {
+	color: white;
+}
+
+.topLeft span, .topRight span {
+	color: #424242;
+}
+
+.topRight {
+	width: 120px;
+	height: 40px;
+	float: right;
+	line-height: 40px;			/* 文字的垂直居中 */
+	font-size: 12px;
+}
+
+.topCar {
+	width: 120px;
+	height: 40px;
+	background: #424242;
+	float: right;
+	display: block;
+	text-align: center;
+	position: relative;
+}
+
+.topCar img {
+	width: 20px;
+	height: 20px;
+	
+	margin-right: 4px;
+	vertical-align: -4px;
+}
+
+.topCar span {
+	font-size: 12px;
+	color: #b0b0b0;
+	
+	line-height: 40px;
+}
+
+.carList {
+	position: absolute;
+	right: 0px;
+	top: 40px;
+	width: 316px;
+	height: 100px;
+	background: white;
+	color: #424242;
+	font-size: 12px;
+	box-shadow: 0 2px 10px rgb(0 0 0 / 15%);
+	overflow: hidden;
+	line-height: 100px;
+	display: none;
+}
+
+.downList {
+	width: 100%;
+	height: 230px;
+	background: white;
+	position: absolute;
+	border-top: 1px solid #b0b0b0;
+	box-shadow: 0px 3px 3px #b0b0b0;
+	display: none;
+}
+
+/* 下拉菜单的中间区域 */
+.downList .downCon {
+	width: 1226px;
+	height: 230px;
+	margin: 0px auto;
+}
+
+/* 动态创建的 div */
+.goodsDiv {
+	width: 202px;
+	height: 120px;
+	float: left;
+	border-right: 1px solid #b0b0b0;
+	margin-top: 30px;
+}
+
+/* 最后一个的 div 的右边框去掉 */
+.goodsDiv:last-child {
+	border-right: none;
+}
+
+.goodsDiv img {
+	width: 80%;
+	margin: 0 10%;
+}
+
+.goodsDiv .goodsName {
+	width: 100%;
+	color: #333;
+	font-size: 12px;
+	text-align: center;
+	margin: 10px auto;
+}
+
+.goodsDiv .goodsRmb {
+	width: 100%;
+	color: orange;
+	font-size: 12px;
+	text-align: center;
+	margin: 12px auto;
+}
