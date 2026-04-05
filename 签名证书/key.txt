@@ -1,0 +1,128 @@
+5dplay
+123456
+
+描述
+1212321工作室
+web位置
+http://www.1212321.com
+
+// 可用
+http://timestamp.digicert.com
+
+Digicert:
+http://timestamp.digicert.com
+Credible: Yes . [Adobe Approved Trust List] and [Windows Cert Store].
+Hash: up to SHA512
+
+GlobalSign:
+http://aatl-timestamp.globalsign.com/tsa/aohfewat2389535fnasgnlg5m23
+Credible: Yes . [Adobe Approved Trust List] and [Windows Cert Store].
+Hash: up to SHA512
+
+Sectigo:
+https://timestamp.sectigo.com
+Credible: Yes . [Adobe Approved Trust List] and [Windows Cert Store].
+Hash: up to SHA512
+Note: wait 15 seconds between each request.
+
+Entrust:
+http://timestamp.entrust.net/TSS/RFC3161sha2TS
+Credible: Yes . [Adobe Approved Trust List] and [Windows Cert Store].
+Hash: up to SHA512
+
+SwissSign:
+http://tsa.swisssign.net
+Credible: Yes . [Adobe Approved Trust List] and [Windows Cert Store].
+Hash: up to SHA512
+Note: only 10 requests per day. For bigger quantities contact the company.
+
+IDnomic:
+http://kstamp.keynectis.com/KSign/
+Credible: Yes . [Adobe: European Union Trusted Lists] and [Windows Cert Store].
+Hash: up to SHA512
+
+QuoVadis + Digicert:
+http://tsa.quovadisglobal.com/TSS/HttpTspServer
+Credible: Yes . [Adobe Approved Trust List] and [Windows Cert Store].
+Hash: up to SHA512
+
+IRN:
+http://ts.cartaodecidadao.pt/tsa/server
+Credible: Yes . [Adobe: European Union Trusted Lists] and [Windows Cert Store].
+Hash: only SHA256
+Note: only allows 20 requests in 20 minutes, if more requests are done the IP address will be blocked and legal consequences may happen.
+
+ACCV:
+http://tss.accv.es:8318/tsa
+Credible: Yes . [Adobe: European Union Trusted Lists] and [Windows Cert Store].
+Hash: up to SHA512
+
+BalTstamp:
+http://tsa.baltstamp.lt
+Credible: Yes . [Adobe: European Union Trusted Lists] and [Windows Cert Store].
+Hash: up to SHA512
+Note: Limitation applies to non-registered users: no more than 100 requests within one month; the beginning and the end of the month are defined in UTC time.
+
+IZENPE:
+http://tsa.izenpe.com
+Credible: Yes . [Adobe: European Union Trusted Lists].
+Hash: up to SHA512
+
+CERTUM:
+http://time.certum.pl
+Credible: Yes . [Windows Cert Store]
+Hash: up to SHA512
+
+DFN:
+http://zeitstempel.dfn.de
+Credible: Yes . [Windows Cert Store]
+Hash: up to SHA512
+Note: commercial use forbidden.
+
+CatCert:
+http://psis.catcert.cat/psis/catcert/tsp
+Credible: Yes . [Windows Cert Store]
+Hash: up to SHA512
+
+Symantec:
+http://sha256timestamp.ws.symantec.com/sha256/timestamp
+Credible: Yes . [Windows Cert Store]
+Hash: up to SHA512
+
+GlobaSign:
+http://rfc3161timestamp.globalsign.com/advanced
+http://timestamp.globalsign.com/tsa/r6advanced1
+Credible: Yes . [Windows Cert Store]
+Hash: up to SHA512
+
+Apple:
+http://timestamp.apple.com/ts01
+Credible: Yes. [Apple CA]
+Hash: up to SHA512
+
+FreeTSA:
+https://freetsa.org/tsr
+Credible: No.
+Hash: up to SHA512
+
+SafeStamper:
+https://www.safestamper.com/tsa
+Credible: No.
+Hash: up to SHA512
+Note: up to 5 requests per day. For bigger quantities contact the company.
+
+MeSign:
+http://tsa.mesign.com
+Credible: No.
+Hash: up to SHA512
+
+WoTrust:
+https://tsa.wotrus.com
+Credible: No.
+Hash: only SHA256
+Note: wait 15 seconds between each request.
+
+Lex-Persona:
+http://tsa.lex-persona.com/tsa
+Credible: No.
+Hash: up to SHA512
