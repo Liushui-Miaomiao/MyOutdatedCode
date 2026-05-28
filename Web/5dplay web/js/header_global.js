@@ -1,0 +1,12 @@
+document.write("<script src=\"js\/navigation.js\"><\/script>");
+document.write("");
+document.write("<div class=\"layui-side layui-bg-black\">");
+document.write("	<div class=\"layui-side-scroll\">");
+document.write("		<ul class=\"layui-nav layui-nav-tree\" lay-filter=\"test\">");
+document.write("			<li class=\"layui-nav-item\"><a href=\"timeline.html\">时间线<\/a><\/li>");
+document.write("		<\/ul>");
+document.write("		<ul class=\"layui-nav layui-nav-tree\" lay-filter=\"test\">");
+document.write("			<li class=\"layui-nav-item\"><a href=\"about.html\">关于我们<\/a><\/li>");
+document.write("		<\/ul>");
+document.write("	<\/div>");
+document.write("<\/div>");
