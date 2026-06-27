@@ -1,0 +1,1 @@
+请使用Flash CS5编译，按 Alt + Shift + f12 发布。
