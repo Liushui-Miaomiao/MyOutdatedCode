@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/Game.c" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/Game.h" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/Main.c" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/Memory.c" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/Memory.h" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/Process.c" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/Process.h" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/Public.h" charset="GBK" />
+  </component>
+</project>

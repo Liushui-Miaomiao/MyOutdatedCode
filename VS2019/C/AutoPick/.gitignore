@@ -1,0 +1,44 @@
+﻿# Dev-C++ 5.11 .gitignore 模板
+# 临时文件
+Makefile.win
+*.layout
+*_private.*
+# 生成文件
+*.o
+*.a
+*.exe
+
+# VisualC++ 6.0 .gitignore 模板
+# 临时文件
+Debug/
+Release/
+# 生成文件
+*.ncb
+*.opt
+*.plg
+*.aps
+
+# VisualStudio 2010 .gitignore 模板
+# 临时文件
+Debug_VS2010/
+Release_VS2010/
+ipch/
+# 生成文件
+*.sdf
+*.suo
+*.user
+
+# VisualStudio 2019 .gitignore 模板
+# 临时文件
+Debug_VS2019/
+Release_VS2019/
+.vs/
+# 生成文件
+*.ncb
+*.opt
+*.plg
+*.aps
+
+# Clion 2022.1.3 .gitignore 模板
+# 临时文件
+cmake-build-*/

@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Game.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Memory.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Process.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Game.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Memory.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Optimize.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Process.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Public.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4e82eb46-6b51-47b7-9486-baa9241ef2a7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{8b7410f0-df63-486d-b5d3-c117cba2fcc9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{d8d7c0b1-d094-4099-b7de-54ae5c8b44b7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="ResScript.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
